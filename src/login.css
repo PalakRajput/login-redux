@@ -1,0 +1,81 @@
+.card {
+box-shadow: 10px 10px 10px grey;
+height: 550px;
+width: 400px;
+margin: 0 auto;
+        float: none; 
+        margin-bottom: 10px; 
+        /* background-color: floralwhite; */
+}
+
+/* Bordered form */
+form {
+    /* border: 3px solid #f1f1f1; */
+    display: inline-block;
+    justify-content: center;
+    /* padding-top: 40%; */
+    
+    
+  }
+button{
+    margin: auto;
+    position: relative; ;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+  }
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid maroon;
+    
+    /* background: #96151d; */
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 12px 0 12px 0;
+    
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 40px;
+    
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+  }
